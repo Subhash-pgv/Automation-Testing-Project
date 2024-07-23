@@ -270,6 +270,6 @@ public class GlobalProfile_UI_DB_Test {
 	public void pageNation() {
 		
 		globalProfile.pageNation();
-		
+		System.out.println("git status check");
 	}
 }

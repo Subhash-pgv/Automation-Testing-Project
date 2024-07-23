@@ -10,5 +10,5 @@
             <class name="o2technologies_test.GlobalProfile_UI_DB_Test"/>
         </classes>
     </test>
-
+<!-- test -->
 </suite>
