@@ -17,6 +17,8 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import o2technologies_utils.*;
 
+
+///----"ProfileAPITestSQL" Registers a new global profile and verifies whether it has been added to the database(SQL).----///
 public class ProfileAPITestSQL {
 
 	private static final String AUTH_TOKEN = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoic3ViaGFzaCIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOiIxIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZW1haWxhZGRyZXNzIjoiU3ViaGFzaHRlc3RAc3ZlZ2lsZXRlY2guY29tIiwiZXhwIjoxNzIxODE3ODQ3LCJpc3MiOiJOZXhnaWxlLmNvbSIsImF1ZCI6Ik5leGdpbGUuY29tIn0.XIRRSPvMxzhF8mZkTUu3UlcXJnhtCRT1AcSjku0kLXQ";
