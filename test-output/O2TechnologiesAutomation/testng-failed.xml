@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2"
+	name="Failed suite [O2TechnologiesAutomation]"
+	guice-stage="DEVELOPMENT">
+	<parameter name="headless" value="false" />
+	<parameter name="Browser" value="chrome" />
+	<test thread-count="2" name="MyTests1(failed)">
+		<classes>
+			<class
+				name="com.org.o2technologies.test.GlobalProfile_UI_DB_Test">
+				<methods>
+					<include name="setUpSuite" />
+					<include name="addProfileWithMobile" />
+					<include name="company_URLS" />
+					<include name="tearDownSuite" />
+					<include name="pageNation" />
+					<include name="verifyProfileDeletionFromDatabase" />
+					<include name="addProfileWithGoogle" />
+					<include name="verifyProfileUpdateInDatabase" />
+					<include name="setupTestData" />
+					<include name="dateCreatedTest" />
+					<include name="searchVerification" />
+					<include name="verifyUIElements" />
+				</methods>
+			</class> <!-- com.org.o2technologies.test.GlobalProfile_UI_DB_Test -->
+		</classes>
+	</test> <!-- MyTests1(failed) -->
+</suite> <!-- Failed suite [O2TechnologiesAutomation] -->

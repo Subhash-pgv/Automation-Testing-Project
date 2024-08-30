@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="O2TechnologiesAutomation">
+
+
+	<parameter name="headless" value="false" />
+	<parameter name="Browser" value="chrome" />
+
+	<test name="MyTests1">
+		<classes>
+			<!-- Uncomment the classes you want to run -->
+			<class name="com.org.o2technologies.test.SearchCandidateTest" />
+			<class
+				name="com.org.o2technologies.test.GlobalProfile_UI_DB_Test" />
+
+		</classes>
+	</test>
+</suite>
